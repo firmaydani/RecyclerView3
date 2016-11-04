@@ -32,7 +32,8 @@ public class InputActivity extends AppCompatActivity
         setContentView(R.layout.activity_input);
 
         etJudul = (EditText) findViewById(R.id.editTextNama);
-        etDeskrispi = (EditText) findViewById(R.id.editTextDetail);
+        etDeskrispi = (EditText) findViewById(R.id.editTextDeskripsi);
+        etDetail = (EditText) findViewById(R.id.editTextDetail);
         etLokasi = (EditText) findViewById(R.id.editTextLokasi);
         ivFoto = (ImageView) findViewById(R.id.imageViewFoto);
 
